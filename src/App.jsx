@@ -65,8 +65,8 @@ function App() {
           <input className='shadow-xl rounded h-7 p-4 w-2/5 ml-2'type="date" value={date} onChange={(e)=>setDate(e.target.value)}></input>
           </div>
           <div className='mt-2 relative'>
-          <input className=" rounded h-7 ml-1 w-2/5 p-4  shadow-xl  " type="text" placeholder='Description' value={description} onChange={(e)=>setDescription(e.target.value)}></input>
-          <select className='type shadow-xl rounded p-1 ' value={type} onChange={(e)=>setType(e.target.value)}>
+          <input className=" rounded h-7 ml-3 w-2/5 p-4  shadow-xl  " type="text" placeholder='Description' value={description} onChange={(e)=>setDescription(e.target.value)}></input>
+          <select className='w-1/5  shadow-xl rounded p-1 mr-20 ml-2 ' value={type} onChange={(e)=>setType(e.target.value)}>
             <option>None</option>
             <option>Income</option>
             <option>Expense</option>
